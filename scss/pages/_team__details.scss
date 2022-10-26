@@ -1,0 +1,81 @@
+.team__details{
+ 
+    .team__meamber{
+        text-align: center;
+        .team__meamber__title{
+         font-family: 'Manrope', sans-serif;
+         font-size: 15px;
+         font-weight: 400;
+         color:$dark3;
+         margin-top: 30px;
+        }
+        .team__meamber__name{
+         font-family: 'Josefin Sans', sans-serif;
+         font-weight: 500;
+         font-size: 28px;
+         color:$dark;
+         margin-bottom: 18px;
+        }
+        .team__meamber__subt{
+         li{
+             display: inline-block;
+             font-family: 'Josefin Sans', sans-serif;
+             font-weight: 400;
+             font-size: 14px;
+             color:$dark3;
+             margin-right: 18px;
+             span{
+                 color:$primary
+             }
+         }
+        }
+     }
+     .team__detailsInfo{
+        
+         h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            color:$dark;
+            margin-bottom: 15px;
+         }
+          p {
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #071311;
+            width:690px;
+            margin-top: 25px;
+        }
+        .teamDetailsItem{
+            margin-top: 44px;
+            .tditem{
+                margin-top: 57px;
+            h3{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                color:$dark1;
+                margin-bottom: 15px;
+            }
+            h6{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                color:$primary;
+            }
+            }
+            .tditem1{
+                margin-top: 40px;
+            }
+        }
+     }
+}
+  .teamDetails__title{
+    text-align: center;
+    p{
+        width: 540px;
+        margin: 0 auto;
+    }
+}

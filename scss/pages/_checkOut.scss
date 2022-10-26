@@ -1,0 +1,200 @@
+.checkout{
+    .checkout__main{
+        .checkoutUptitle{
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color:$primary;
+            padding: 19px 20px;
+            border:1px solid #EBEBEB;
+            margin-bottom: 40px;
+            span{
+                color:$dark1;
+            }
+        }
+        .checkout__input__box{
+            .chekOut__tik{
+                .chekoutRight{
+                    text-align: right;
+                }
+                .check__inputTik{
+                    width: 12px;
+                    height: 12px;
+                    margin-top: 5px;
+                }
+                .check__inputTik1{
+                    width: 12px;
+                    height: 12px;
+                    margin-top: 5px;
+                    margin-left: 75px;
+                }
+                label{
+                    font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                color:$dark;
+                }
+            }
+            h2{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 30px;
+                font-weight: 600;
+                color:$dark;
+                margin-bottom: 20px;
+            }
+            h3{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                color:$dark3;
+                margin-bottom: 20px;
+                margin-top: 40px;
+            }
+            .checkout__input3{
+                width: 735px;
+                height: 52px;
+                border-radius: 0;
+                border-color: #EBEBEB;
+            }
+            .checkout__input4{
+                width: 735px;
+                height: 131px;
+                border-radius: 0;
+                border-color: #EBEBEB;
+            }
+            input{
+                width: 355px;
+                height: 52px;
+                border-radius: 0;
+                border-color: #EBEBEB;
+            }
+            label{
+                font-family: 'Manrope', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color:$dark3
+            }
+        }
+        
+    }
+     .card__total{
+        .card__totolborder{
+            width: 100%;
+            height: 1px;
+            background: #E8E8E8;
+            margin-top: 20px;
+        }
+        margin-top: 40px;
+        h2{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 30px;
+                font-weight: 500;
+                color:#000000;
+                margin-bottom: 30px;
+        }
+        h4{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                color:#000000;
+                margin-top: 30px;
+                span{
+                    color:$primary;
+                }
+        }
+        h5{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                color:$dark3;
+                margin-top: 30px;
+        }
+        h5{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                color:$dark3;
+                margin-top: 30px;
+        }
+        h6{
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color:$dark3;
+            margin-top: 30px;
+            span{
+                color:$primary;
+            }
+        }
+        a{
+            display: inline-block;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                color:$dark3;
+                margin-top: 30px;
+                padding: 10px 24px;
+                background: #ED4C5C;
+                color:#fff;
+        }
+    }
+    .checkout__proces{
+        margin-top: 75px;
+        input{
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            background: #E7E7E7;
+            margin-top: 10px;
+        }
+        .input1{
+            width: 10px;
+            height: 10px;
+            border-radius: 0;
+            background: #E7E7E7;
+            margin-top: 10px;
+        }
+        label{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color:$dark;
+            h3{
+                font-family: 'Manrope', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color:$dark3;
+            }
+            img{
+                margin-left:10px;
+            }
+        }
+        p{
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color:$dark3;
+            margin-left: 27px;
+            line-height: 22px;
+            span{
+                color:#ED4C5C
+            }
+           
+        }
+        .terms{
+            margin-top: -20px;
+        }
+        a{
+            display: inline-block;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                color:$dark3;
+                margin-top: 30px;
+                padding: 10px 24px;
+                background: #ED4C5C;
+                color:#fff;
+                margin-left: 25px;
+        }
+    }
+}

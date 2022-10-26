@@ -1,0 +1,73 @@
+#about{
+    margin-top: 130px;
+    .about__img{
+        width: 100%;
+    }
+    .about__title{
+        .main__title{
+            color:$dark;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 62px;
+            text-transform: capitalize;
+            margin-top: 20px;
+            position: relative;
+            &::after{
+                width: 186px;
+                height: 9px;
+                background: $primary;
+                content: '';
+                position: absolute;
+                bottom: 80px;
+                left: 0px;
+                z-index: -1;
+                opacity: .8;
+                animation: lafalafi 4s infinite alternate linear;
+            }
+            @keyframes lafalafi {
+                from{
+                    transform: translateX(0);
+                }to{
+                    transform: translateX(100%);
+                }
+            }
+        }
+        .title__pera{
+            width: 535px;
+        }
+       
+      
+        ul{
+            li{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                color:#353535;
+                margin-top: 15px;
+                position: relative;
+                top:0;
+                left:30px;
+                
+                i{
+                    margin-right: 8px;
+                    position: absolute;
+                    top:5px;
+                    left: -30px;
+                }
+            }
+        }
+        a{
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color:$dark;
+            margin-top: 60px;
+            i{
+                margin-left: 16px;
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.error{
+   text-align: center;
+   h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color:$dark;
+    line-height: 52px;
+    margin-bottom: 15px;
+   }
+   p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:$dark1;
+    line-height: 32px;
+    width: 630px;
+    margin: 0 auto;
+   }
+   a{
+       display: inline-block;
+       font-family: 'Josefin Sans', sans-serif;
+       font-size: 18px;
+       font-weight: 600;
+       color:#fff;
+       line-height: 24px;
+       padding: 16px 24px;
+       background: $primary;
+       margin-top: 40px;
+       border:1px solid transparent;
+       transition: .4s;
+       &:hover{
+           background:transparent;
+           color:$dark;
+           border:1px solid $primary;
+       }
+   }
+}

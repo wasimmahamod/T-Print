@@ -1,0 +1,91 @@
+@import '../variabels/variables';
+#team{
+
+    .team__title{
+        .main__title{
+            position: relative;
+            &::after{
+                width: 650px;
+                height: 1px;
+                background: $dark5;
+                position: absolute;
+                top:50%;
+                left: 35%;
+                content: '';
+            }
+        }
+    }
+    margin-top: 130px;
+    .team__meamber__d{
+        margin-top: 70px;
+        .team__meamber{
+           .team__meamber__title{
+            font-family: 'Manrope', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            color:$dark3;
+            margin-top: 30px;
+           }
+           .team__meamber__name{
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 500;
+            font-size: 28px;
+            color:$dark;
+            margin-bottom: 18px;
+           }
+           .team__meamber__subt{
+            li{
+                display: inline-block;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                color:$dark3;
+                margin-right: 18px;
+                span{
+                    color:$primary
+                }
+            }
+           }
+        }
+       .tb__left {
+            border: 1px solid $dark4;
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 30px;
+            position: absolute;
+            top: -117px;
+            left: 1046px;
+            color: $dark4;
+            transition: 0.4s;
+            &:hover{
+                border-color: $primary;
+                color:$primary;
+            }
+        }
+          .tb__right{
+            border: 1px solid $dark4;
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 30px;
+            position: absolute;
+            top: -117px;
+            right: 0px;
+            color:$dark4;
+            transition: .4s;
+            &:hover{
+                border-color: $primary;
+                color:$primary;
+            }
+        }
+          .carousel-control-prev{
+              opacity: 1;
+          }
+          .carousel-control-next{
+              opacity: 1;
+          }
+    }
+}

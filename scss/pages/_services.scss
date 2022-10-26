@@ -1,0 +1,38 @@
+#blog__standard{
+    .blogs__item{
+        
+    }
+    .services__other{
+        h3{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 25px;
+            line-height: 35px;
+            color:$dark;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        ul{
+            
+            li{
+                padding: 16px 20px;
+                border:1px solid #E7E7E7;
+                font-family: 'Manrope', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                color:$dark3;
+                margin-top: 25px;
+                position: relative;
+                i{
+                    position: absolute;
+                    top:50%;
+                    right: 20px;
+                    transform: translateY(-50%);
+                }
+
+            }
+        }
+        .services4img{
+            margin-top: 50px;
+        }
+    }
+}

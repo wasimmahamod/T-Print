@@ -1,0 +1,125 @@
+.contact__us{
+    .contact__talk{
+        h3{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 35px;
+            font-weight: 600;
+            color:$dark;
+        }
+        p{
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color:$dark3;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+        ul{
+            margin-left: 25px !important;
+            margin-bottom: 45px !important;
+            li{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                color:$dark3;
+                line-height: 28px;
+                position: relative;
+                left: 40px;
+                margin-top: 22px;
+                width: 280px;
+                i{
+                    position: absolute;
+                    top:2px;
+                    left: -40px;
+                }
+            }
+        }
+        h4{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 45px;
+            color:$dark;
+        }
+        h5{
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color:$dark3;
+            line-height: 30px;
+            width: 285px;
+        }
+    }
+
+    .send__msg{
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            color:$dark;
+  
+        }
+        .singin__box{
+      
+            margin-top: 50px;
+           label{
+               font-family: 'Manrope', sans-serif;
+               font-size: 14px;
+               font-weight: 400;
+               color:$dark3;
+               margin-top: 20px;
+               h3{
+                   font-family: 'Josefin Sans', sans-serif;
+                   font-size: 16px;
+                   font-weight: 400;
+                   color:$dark3;
+                   margin-left: 230px;
+                   margin-top: -24px;
+                   text-decoration: underline;
+                   color:#ED4C5C
+               }
+               h6{
+                   color:$dark1
+               }
+             }
+             input{
+                 width: 570px;
+                 height: 52px;
+                 border-radius: 0;
+                 margin-top: 23px;
+             }
+          .text{
+              height: 151px;
+          }
+             a{
+               display: inline-block;
+                   font-family: 'Josefin Sans', sans-serif;
+                   font-size: 18px;
+                   font-weight: 400;
+                   color:$dark3;
+                   margin-top: 30px;
+                   padding: 10px 24px;
+                   background: #ED4C5C;
+                   color:#fff;
+           }
+           h3{
+               font-family: 'Josefin Sans', sans-serif;
+               font-size: 18px;
+               font-weight: 500;
+               color:$dark;
+               margin-top: 30px;
+               span{
+                   color:#ED4C5C
+               }
+           }
+        }
+   
+    }
+}
+
+.map{
+    margin-top: 130px;
+   background: url(../images/map.png) no-repeat center;
+   background-size: cover;
+   height: 450px;
+}

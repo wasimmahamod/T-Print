@@ -1,0 +1,67 @@
+
+.shoppage__top{
+    h5{
+        font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:$primary;
+    }
+    .shoppage__top__right{
+        position: relative;
+        h4{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color:$dark3;
+            margin-top: 10px;
+        }
+        .shoppage__search{
+            width: 270px;
+            position: absolute;
+            top:0;
+            right: 0;
+           
+        }
+        ::placeholder{
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color:$dark3;
+        }
+        .input__search{
+            position: relative;
+            i{
+                position: absolute;
+                top:10px;
+                right: 10px;
+                font-size: 16px;
+                color:$dark3;
+            }
+        }
+        
+
+    }
+}
+
+.blog__d{
+
+    margin:134px 0!important;
+    text-align: center;
+   
+    li{
+        display: inline-block;
+        font-family: 'Josefin Sans', sans-serif !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        color:$dark !important;
+        margin-left: 50px !important;
+        span{
+            color:$primary;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        i{
+            margin: 0 10px;
+        }
+    }
+}

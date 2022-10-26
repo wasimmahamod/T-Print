@@ -1,0 +1,33 @@
+#printing{
+    .printingimg{
+        background: url(../images/ourservice.png) no-repeat center;
+        box-sizing: cover;
+      .overlay{
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0,.7);
+          display: flex;
+          padding: 90px 80px;
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 42px;
+            font-weight: 600;
+            color:#fff;
+            width: 630px;
+        }
+      .link{
+          margin-left: 120px;
+        a{
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color:#fff;
+            padding: 16px 24px;
+            border:1px solid #fff;
+           
+        }
+      }
+      }
+    }
+}

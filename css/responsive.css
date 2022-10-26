@@ -1,0 +1,1845 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    header .header__phone {
+        margin-right: 0px !important;
+    }
+    header .header__middel {
+        text-align: left;
+    }
+    header ul{
+        text-align: left;
+    }
+    header .header__middel {
+        text-align: center;
+        margin-top: 10px;
+    }
+    header .header__right {
+        justify-content: center;
+    }
+
+    nav .nav__logo{
+        text-align: center;
+    }
+    nav .nav__icon {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    #banner .banner__item .banner__hadding {
+        margin-top: 50px;
+        font-size: 50px;
+        line-height: 70px;
+
+    }
+    #banner .banner__item .banner__hadding::after {
+        width: 184px;
+        bottom: 91px;
+    }
+    #banner .banner__item p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #banner .banner__item a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 20px;
+
+    }
+    #banner .banner__item .banner__img {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #banner .banner__right__btn i::after {
+        display: none;
+    }
+    #banner .banner__left__btn i::after {
+        display: none;
+    }
+    #banner .banner__right__btn {
+        display: none;
+    }
+    #banner .banner__left__btn {
+        display: none;
+    }
+    #banner .banner__item .banner__shape {
+        display: none;
+    }
+
+    #about .about__title .main__title {
+        font-size: 36px;
+        line-height: 50px;
+
+    }
+    #about .about__title .title__pera {
+        width: auto;
+    }
+    #about .about__title ul li {
+
+        width: 90%;
+    }
+    #about .about__title a {
+        margin-top: 30px;
+    }
+    .main__title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    #service {
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+    #service .service__title p {
+        width: auto;
+    }
+    #service .service__button a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: -20px;
+    }
+    #choose {
+        margin-top: 70px;
+    }
+    #choose a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #choose .choose__img__down {
+        margin-bottom: 20px;
+    }
+    #products .products__title .main__title {
+        width: auto;
+        margin: 0 auto;
+    }
+    #products .products__title .main__title::after {
+        display: none;
+    }
+    #products ul {
+        text-align: center;
+    }
+    #products ul li {
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+    .button a {
+        font-size: 14px;
+        margin-top: 0;
+        padding: 10px 16px;
+    }
+    #products .products__list .products__item {
+        width: 270px;
+        height: 350px;
+
+    }
+    #testimonal .tb__right {
+        display: none;
+    }
+    #testimonal .tb__left {
+        display: none;
+    }
+    #testimonal .testimonal__left .testimonal__text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #plan .plan__title .title__pera {
+        width: auto;
+        margin: 0 auto;
+    }
+    #plan .plan__item {
+        width: auto;
+    }
+    #team .team__meamber__d .tb__right {
+
+        display: none;
+    }
+    #team .team__meamber__d .tb__left {
+
+        display: none;
+    }
+    #team .team__title .main__title::after {
+        display: none;
+    }
+    #news .news__title .main__title::after {
+        display: none;
+    }
+    #news .news__title .news__link {
+
+        bottom: -29px;
+        left: 0;
+    }
+    #news .news__d .team__meamber .news__headding {
+        font-size: 21px;
+    }
+    .team__meamber img {
+        width: 100%;
+    }
+    #sponsor img{
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    footer .footer__arrow {
+
+        display: none;
+    }
+    footer .footer__up .f__l {
+
+        margin-bottom: 30px;
+    }
+    footer .footer__up .footer__headding {
+        margin-bottom: 32px;
+        margin-top: 30px;
+    }
+    footer .footer__up .input .rocket {
+        top: 40px;
+        right: 68px;
+    }
+    footer .footer__up .input .rocket {
+        display: none;
+    }
+    /* ===================about us ====================== */
+    #info .info__title h2 {
+        width: auto;
+    }
+    #info .infoimg img{
+       width: 100%;
+    }
+    /* ===================about us ====================== */
+    /* ===================service====================== */
+    #printing{
+        margin-top: 50px;
+    }
+    #printing .printingimg .overlay {
+
+        display: block;
+        padding: 10px 10px;
+    }
+    #printing .printingimg .overlay .link {
+        margin-left: 0px;
+    }
+    #printing .printingimg .overlay h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+    #printing .printingimg .overlay .link a {
+        padding: 10px 16px ;
+        font-size: 14px;
+    }
+    /* ===================service====================== */
+    /* ===================team details====================== */
+    .team__details .team__detailsInfo p {
+       width: auto;
+    }
+    .teamDetails__title p {
+        width: auto;
+    }
+    /* ===================team details====================== */
+    /* ===================card  ====================== */
+    .card__page .card__nav ul li {
+
+        margin-top: 20px;
+    }
+    /* ===================card  ====================== */
+    /* ===================costomar gride  ====================== */
+
+    #blog__standard .blog__title .blogtitle__headding {
+        font-size: 40px;
+        line-height: 55px;
+
+    }
+    #blog__standard .blogs__main .custom__tagandshare .custom__share {
+        margin-top: 18px;
+        display: block;
+    }
+    #blog__standard .blogs__main .custom__comment .custom__comt .custom__comt__img {
+        margin-right: 0px;
+    }
+    #blog__standard .blogs__main .custom__comment .custom__comit2 {
+        margin-left: 00px;
+    }
+    #blog__standard .blogs__main .leave__comment form .fullnameInput {
+        width: auto;
+    }
+    #blog__standard .blogs__main .leave__comment form .input2 {
+        width: auto;
+
+    }
+    #blog__standard .blogs__main .leave__comment form .input3 {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__input__box input {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__input__box .search {
+        display: none;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__recent__update ul {
+        width: auto;
+
+    }
+    /* ===================costomar gride  ====================== */
+    /* ===================shop details2  ====================== */
+    .t__shart__navTab .shopDetails__person p {
+       width: auto;
+    }
+    .t__shart__navTab .t__shart__review input {
+        width: auto;
+    }
+    .t__shart .t__shart__right p {
+       width: auto;
+    }
+    .t__shart__navTab ul li {
+
+        width: 90%;
+    }
+    .t__shart__navTab .shop__details__down ul li {
+
+        width: 45%;
+    }
+    .t__shart__navTab .t__shart__navTabul li {
+
+        width: 60%;
+    }
+    /* ===================shop details2  ====================== */
+    /* ===================Blog starndard ====================== */
+    #blog__standard .blogs__main .blogs__item .blogs__headding {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__item .blogs__videoimg {
+        width: 100%;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__person .pera {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__recent__update .blogs__uname::after {
+        display: none;
+    }
+    /* ===================Blog starndard ====================== */
+    /* ===================checkout====================== */
+    .checkout .checkout__main .checkout__input__box input {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .checkout__input3 {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .checkout__input4 {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .chekOut__tik .check__inputTik1 {
+       
+        margin-left: -23px;
+    }
+    /* ===================checkout====================== */
+        /* ===================costomar gide ====================== */
+        #blog__standard .blogs__videoimg{
+            width: 100%;
+        }
+        #blog__standard .blog__itemimg{
+            width: 100%;
+        }
+    /* ===================costomar gide ====================== */
+    /* ===================project details ====================== */
+    #blog__standard .services__other .services4img {
+        width: 100%;
+    }
+    #blog__standard .blogs__main .pera {
+
+        width: 100%;
+    }
+    .projectDetailsimg{
+        width: 100%;
+    }
+    /* ===================project details ====================== */
+/* ===================shop page ====================== */
+.shopSlider__item {
+
+	height: 100%;
+	width: auto;
+}
+.shoppage__top .shoppage__top__right .shoppage__search {
+	position: relative;
+
+}
+.shoppage__top .shoppage__top__right .input__search i {
+
+	display: none;
+}
+#products .products__list .products__item {
+	width: auto;
+	height: 100%;
+}
+/* ===================shop page ====================== */
+    /* =========================quote Part =============start  */
+    .quote .quote__main .quote__main__down h2 {
+        font-size: 25px;
+    }
+    .quote .quote__main .quote__main__up h2 {
+        font-size: 25px;
+    }
+    .quote .quote__main .quote__main__up .quote__input__box .quote__input {
+        width: auto;
+    }
+    .quote .quote__main .quote__main__down .quote__input__box .quote__input {
+        width: auto;
+
+    }
+    .quote .quote__main .quote__msg .quote__input3 {
+        width: auto;
+        height: 150px;
+    }
+    .quote .quote__main .quote__drage .quote__drage__main a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .quote .quote__main .quote__main__down .quote__input__box .quote__arrowMain i {
+       display: none;
+    }
+    .quote .quote__main .quote__main__up .quote__mainarrowup .angle__down {
+        display: none;
+    }
+    /* =========================quote Part =============end  */
+    /* =========================login Part =============end  */
+    .singin .singin__main {
+        width: 100%;
+        padding: 20px;
+    }
+    .singin .singin__main .singin__box input {
+        width: 100%;
+    }
+    .singin .singin__main .singin__box label h3 {
+        margin-left: 121px;
+    }
+    /* =========================login Part =============end  */
+    /* =========================login Part =============end  */
+    .singUp .singin__main {
+        width: 100%;
+        padding: 20px;
+    }
+    .singUp .singin__main .singin__box input {
+        width: 100%;
+    }
+    .singUp .singin__main .singin__box label h3 {
+        margin-left: 121px;
+    }
+    /* =========================login Part =============end  */
+    /* =========================faq Part =============start  */
+    .faq .faq__questions h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .faq .faq__questions p {
+        width: auto;
+    }
+    .faq .faq__ask p {
+       width: auto;
+    }
+    /* =========================faq Part =============end  */
+    /* =========================contact Part =============start  */
+
+    .contact__us .contact__talk h3 {
+        font-size: 30px;
+    }
+    .contact__us .contact__talk ul {
+        margin-left: 0px !important;
+    }
+    .contact__us .contact__talk ul li {
+        width: 85%;
+    }
+    .contact__us .send__msg .singin__box input {
+        width: auto;
+    }
+    /* =========================contact Part =============end  */
+    /* =========================error Part =============start  */
+    .error img{
+        width: 100%;
+    }
+    .error h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .error p {
+   width: auto;
+    }
+    .error a {
+        padding: 10px 20px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    /* =========================error Part =============end  */
+
+}
+@media (min-width:576px) and (max-width:767px) {
+    header .header__phone {
+        margin-right: 0px !important;
+    }
+    header .header__middel {
+        text-align: left;
+    }
+    header ul{
+        text-align: left;
+    }
+    header .header__middel {
+        text-align: center;
+        margin-top: 10px;
+    }
+    header .header__right {
+        justify-content: center;
+    }
+    
+    nav .nav__logo{
+        text-align: center;
+    }
+    nav .nav__icon {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    #banner .banner__item .banner__hadding {
+        margin-top: 50px;
+        font-size: 50px;
+        line-height: 70px;
+    
+    }
+    #banner .banner__item .banner__hadding::after {
+        width: 184px;
+        bottom: 91px;
+    }
+    #banner .banner__item p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #banner .banner__item a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    
+    }
+    #banner .banner__item .banner__img {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #banner .banner__right__btn i::after {
+        display: none;
+    }
+    #banner .banner__left__btn i::after {
+        display: none;
+    }
+    #banner .banner__right__btn {
+        display: none;
+    }
+    #banner .banner__left__btn {
+        display: none;
+    }
+    #banner .banner__item .banner__shape {
+        display: none;
+    }
+    
+    #about .about__title .main__title {
+        font-size: 36px;
+        line-height: 50px;
+    
+    }
+    #about .about__title .title__pera {
+        width: auto;
+    }
+    #about .about__title ul li {
+    
+        width: 90%;
+    }
+    #about .about__title a {
+        margin-top: 30px;
+    }
+    .main__title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    #service {
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+    #service .service__title p {
+        width: auto;
+    }
+    #service .service__button a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: -20px;
+    }
+    #choose {
+        margin-top: 70px;
+    }
+    #choose a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #choose .choose__img__down {
+        margin-bottom: 20px;
+    }
+    #products .products__title .main__title {
+        width: auto;
+        margin: 0 auto;
+    }
+    #products .products__title .main__title::after {
+        display: none;
+    }
+    #products ul {
+        text-align: center;
+    }
+    #products ul li {
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+    .button a {
+        font-size: 14px;
+        margin-top: 0;
+        padding: 10px 16px;
+    }
+    #products .products__list .products__item {
+        width: 270px;
+        height: 350px;
+    
+    }
+    #testimonal .tb__right {
+        display: none;
+    }
+    #testimonal .tb__left {
+        display: none;
+    }
+    #testimonal .testimonal__left .testimonal__text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #plan .plan__title .title__pera {
+        width: auto;
+        margin: 0 auto;
+    }
+    #plan .plan__item {
+        width: auto;
+    }
+    #team .team__meamber__d .tb__right {
+    
+        display: none;
+    }
+    #team .team__meamber__d .tb__left {
+    
+        display: none;
+    }
+    #team .team__title .main__title::after {
+        display: none;
+    }
+    #news .news__title .main__title::after {
+        display: none;
+    }
+    #news .news__title .news__link {
+    
+        bottom: -29px;
+        left: 0;
+    }
+    #news .news__d .team__meamber .news__headding {
+        font-size: 21px;
+    }
+    .team__meamber img {
+        width: 100%;
+    }
+    #sponsor img{
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    footer .footer__arrow {
+    
+        display: none;
+    }
+    footer .footer__up .f__l {
+    
+        margin-bottom: 30px;
+    }
+    footer .footer__up .footer__headding {
+        margin-bottom: 32px;
+        margin-top: 30px;
+    }
+    footer .footer__up .input .rocket {
+        top: 40px;
+        right: 68px;
+    }
+    footer .footer__up .input .rocket {
+        display: none;
+    }
+       /* ===================about us ====================== */
+       #info .info__title h2 {
+        width: auto;
+    }
+    #info .infoimg img{
+       width: 100%;
+    }
+    /* ===================about us ====================== */
+    /* ===================card  ====================== */
+    .card__page .card__nav ul li {
+
+        margin-top: 20px;
+    }
+    /* ===================card  ====================== */
+        /* ===================service====================== */
+        #printing{
+            margin-top: 50px;
+        }
+        #printing .printingimg .overlay {
+    
+            display: block;
+            padding: 10px 10px;
+        }
+        #printing .printingimg .overlay .link {
+            margin-left: 0px;
+        }
+        #printing .printingimg .overlay h2 {
+            font-size: 30px;
+            width: 100%;
+        }
+        #printing .printingimg .overlay .link a {
+            padding: 10px 16px ;
+            font-size: 14px;
+        }
+        /* ===================service====================== */
+          /* ===================team details====================== */
+    .team__details .team__detailsInfo p {
+        width: auto;
+     }
+     .teamDetails__title p {
+         width: auto;
+     }
+     /* ===================team details====================== */
+    /* ===================Blog starndard ====================== */
+    #blog__standard .blogs__main .blogs__item .blogs__headding {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__item .blogs__videoimg {
+        width: 100%;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__person .pera {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__recent__update .blogs__uname::after {
+        display: none;
+    }
+    /* ===================Blog starndard ====================== */
+        /* ===================project details ====================== */
+        #blog__standard .services__other .services4img {
+            width: 100%;
+        }
+        #blog__standard .blogs__main .pera {
+    
+            width: 100%;
+        }
+        .projectDetailsimg{
+            width: 100%;
+        }
+        /* ===================project details ====================== */
+            /* ===================shop details2  ====================== */
+            .t__shart__navTab .shopDetails__person p {
+                width: auto;
+             }
+             .t__shart__navTab .t__shart__review input {
+                 width: auto;
+             }
+
+    .t__shart .t__shart__right p {
+        width: auto;
+     }
+     .t__shart__navTab ul li {
+ 
+         width: 90%;
+     }
+     .t__shart__navTab .shop__details__down ul li {
+ 
+         width: 45%;
+     }
+     .t__shart__navTab .t__shart__navTabul li {
+ 
+         width: 40%;
+     }
+     /* ===================shop details2  ====================== */
+     /* ===================shop page ====================== */
+     .shopSlider__item {
+
+        height: 100%;
+        width: auto;
+    }
+.shoppage__top .shoppage__top__right .shoppage__search {
+	position: relative;
+
+}
+.shoppage__top .shoppage__top__right .input__search i {
+
+	display: none;
+}
+#products .products__list .products__item {
+	width: auto;
+	height: 100%;
+}
+/* ===================shop page ====================== */
+        /* ===================costomar gride  ====================== */
+
+        #blog__standard .blog__title .blogtitle__headding {
+            font-size: 40px;
+            line-height: 55px;
+    
+        }
+        #blog__standard .blogs__main .custom__tagandshare .custom__share {
+            margin-top: 18px;
+            display: block;
+        }
+        #blog__standard .blogs__main .custom__comment .custom__comt .custom__comt__img {
+            margin-right: 0px;
+        }
+        #blog__standard .blogs__main .custom__comment .custom__comit2 {
+            margin-left: 00px;
+        }
+        #blog__standard .blogs__main .leave__comment form .fullnameInput {
+            width: auto;
+        }
+        #blog__standard .blogs__main .leave__comment form .input2 {
+            width: auto;
+    
+        }
+        #blog__standard .blogs__main .leave__comment form .input3 {
+            width: auto;
+        }
+        #blog__standard .blogs__main .blogs__persond .blogs__input__box input {
+            width: auto;
+        }
+        #blog__standard .blogs__main .blogs__persond .blogs__input__box .search {
+            display: none;
+        }
+        #blog__standard .blogs__main .blogs__persond .blogs__recent__update ul {
+            width: auto;
+    
+        }
+        /* ===================costomar gride  ====================== */
+         /* ===================costomar gide ====================== */
+         #blog__standard .blogs__videoimg{
+            width: 100%;
+        }
+        #blog__standard .blog__itemimg{
+            width: 100%;
+        }
+    /* ===================costomar gide ====================== */
+    /* ===================checkout====================== */
+    .checkout .checkout__main .checkout__input__box input {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .checkout__input3 {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .checkout__input4 {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .chekOut__tik .check__inputTik1 {
+       
+        margin-left: -23px;
+    }
+    /* ===================checkout====================== */
+       /* =========================quote Part =============start  */
+       .quote .quote__main .quote__main__down h2 {
+        font-size: 25px;
+    }
+    .quote .quote__main .quote__main__up h2 {
+        font-size: 25px;
+    }
+    .quote .quote__main .quote__main__up .quote__input__box .quote__input {
+        width: 100%;
+    }
+    .quote .quote__main .quote__main__down .quote__input__box .quote__input {
+        width: 100%;
+
+    }
+    .quote .quote__main .quote__msg .quote__input3 {
+        width: 100%;
+        height: 150px;
+    }
+    .quote .quote__main .quote__drage .quote__drage__main a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .quote .quote__main .quote__main__down .quote__input__box .quote__arrowMain i {
+       display: none;
+    }
+    .quote .quote__main .quote__main__up .quote__mainarrowup .angle__down {
+        display: none;
+    }
+    /* =========================quote Part =============end  */
+      /* =========================login Part =============end  */
+      .singin .singin__main {
+        width: 100%;
+        padding: 20px;
+    }
+    .singin .singin__main .singin__box input {
+        width: 70%;
+    }
+    .singin .singin__main .singin__box label h3 {
+        margin-left: 121px;
+    }
+    /* =========================login Part =============end  */
+          /* =========================login Part =============end  */
+          .singUp .singin__main {
+            width: 100%;
+            padding: 20px;
+        }
+        .singUp .singin__main .singin__box input {
+            width: 70%;
+        }
+        .singUp .singin__main .singin__box label h3 {
+            margin-left: 121px;
+        }
+        /* =========================login Part =============end  */
+            /* =========================faq Part =============start  */
+    .faq .faq__questions h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .faq .faq__questions p {
+        width: auto;
+    }
+    .faq .faq__ask p {
+       width: auto;
+    }
+    /* =========================faq Part =============end  */
+        /* =========================error Part =============start  */
+        .error img{
+            width: 100%;
+        }
+        .error h1 {
+            font-size: 30px;
+            line-height: 45px;
+        }
+        .error p {
+       width: auto;
+        }
+        .error a {
+            padding: 10px 20px;
+            font-weight: 400;
+            font-size: 14px;
+        }
+/* =========================error Part =============end  */
+    /* =========================contact Part =============start  */
+
+    .contact__us .contact__talk h3 {
+        font-size: 30px;
+    }
+    .contact__us .contact__talk ul {
+        margin-left: 0px !important;
+    }
+    .contact__us .contact__talk ul li {
+        width: 85%;
+    }
+    .contact__us .send__msg .singin__box input {
+        width: auto;
+    }
+    /* =========================contact Part =============end  */
+}
+@media (min-width:768px) and (max-width:991px) {
+    header .header__phone {
+        margin-right: 0px !important;
+    }
+    header .header__middel {
+        text-align: left;
+    }
+    header ul{
+        text-align: left;
+    }
+    header .header__middel {
+        text-align: center;
+        margin-top: 10px;
+    }
+    header .header__right {
+        justify-content: center;
+    }
+    
+    nav .nav__logo{
+        text-align: center;
+    }
+    nav .nav__icon {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    nav .nav__icon {
+        margin-top: 0px;
+    }
+    #banner .banner__item .banner__hadding {
+        margin-top: 50px;
+        font-size: 50px;
+        line-height: 70px;
+    
+    }
+    #banner .banner__item .banner__hadding::after {
+        width: 184px;
+        bottom: 91px;
+    }
+    #banner .banner__item p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #banner .banner__item a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    
+    }
+    #banner .banner__item .banner__img {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #banner .banner__right__btn i::after {
+        display: none;
+    }
+    #banner .banner__left__btn i::after {
+        display: none;
+    }
+    #banner .banner__right__btn {
+        display: none;
+    }
+    #banner .banner__left__btn {
+        display: none;
+    }
+    #banner .banner__item .banner__shape {
+        display: none;
+    }
+    
+    #about .about__title .main__title {
+        font-size: 36px;
+        line-height: 50px;
+    
+    }
+    #about .about__title .title__pera {
+        width: auto;
+    }
+    #about .about__title ul li {
+    
+        width: 90%;
+    }
+    #about .about__title a {
+        margin-top: 30px;
+    }
+    .main__title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    #service {
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+    #service .service__title p {
+        width: auto;
+    }
+    #service .service__button a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: -20px;
+    }
+    #choose {
+        margin-top: 70px;
+    }
+    #choose a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #choose .choose__img__down {
+        margin-bottom: 20px;
+    }
+    #products .products__title .main__title {
+        width: auto;
+        margin: 0 auto;
+    }
+    #products .products__title .main__title::after {
+        display: none;
+    }
+    #products ul {
+        text-align: center;
+    }
+    #products ul li {
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+    .button a {
+        font-size: 14px;
+        margin-top: 0;
+        padding: 10px 16px;
+    }
+    #products .products__list .products__item {
+        width: 270px;
+    
+    }
+    #testimonal .tb__right {
+        display: none;
+    }
+    #testimonal .tb__left {
+        display: none;
+    }
+    #testimonal .testimonal__left .testimonal__text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #plan .plan__title .title__pera {
+        width: auto;
+        margin: 0 auto;
+    }
+    #plan .plan__item {
+        width: auto;
+    }
+    #team .team__meamber__d .tb__right {
+    
+        display: none;
+    }
+    #team .team__meamber__d .tb__left {
+    
+        display: none;
+    }
+    #team .team__title .main__title::after {
+        display: none;
+    }
+    #news .news__title .main__title::after {
+        display: none;
+    }
+    #news .news__title .news__link {
+    
+        bottom: -29px;
+        left: 0;
+    }
+    #news .news__d .team__meamber .news__headding {
+        font-size: 21px;
+    }
+    .team__meamber img {
+        width: 100%;
+    }
+    #sponsor img{
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    footer .footer__arrow {
+    
+        display: none;
+    }
+    footer .footer__up .f__l {
+    
+        margin-bottom: 30px;
+    }
+    footer .footer__up .footer__headding {
+        margin-bottom: 32px;
+        margin-top: 30px;
+    }
+    footer .footer__up .input .rocket {
+        top: 40px;
+        right: 68px;
+    }
+    footer .footer__up .input .rocket {
+        display: none;
+    }
+           /* ===================about us ====================== */
+           #info .info__title h2 {
+            width: auto;
+        }
+        #info .infoimg img{
+           width: 100%;
+        }
+        /* ===================about us ====================== */
+    /* ===================card  ====================== */
+    .card__page .card__nav ul li {
+
+        margin-top: 20px;
+    }
+    /* ===================card  ====================== */
+      /* ===================team details====================== */
+      .team__details .team__detailsInfo p {
+        width: auto;
+     }
+     .teamDetails__title p {
+         width: auto;
+     }
+     /* ===================team details====================== */
+        /* ===================service====================== */
+        #printing{
+            margin-top: 50px;
+        }
+        #printing .printingimg .overlay {
+            display: block;
+            padding: 80px 41px;
+        }
+        #printing .printingimg .overlay .link {
+            margin-left: 0px;
+        }
+        #printing .printingimg .overlay h2 {
+            font-size: 30px;
+            width: 100%;
+        }
+        #printing .printingimg .overlay .link a {
+            padding: 10px 16px ;
+            font-size: 14px;
+        }
+        /* ===================service====================== */
+        /* ===================shop details2  ====================== */
+        .t__shart__navTab .shopDetails__person p {
+            width: auto;
+         }
+         .t__shart__navTab .t__shart__review input {
+             width: auto;
+         }
+        .t__shart .t__shart__right p {
+            width: auto;
+         }
+         .t__shart__navTab ul li {
+     
+             width: 90%;
+         }
+         .t__shart__navTab .shop__details__down ul li {
+     
+             width: 45%;
+         }
+         .t__shart__navTab .t__shart__navTabul li {
+     
+             width: 40%;
+         }
+         /* ===================shop details2  ====================== */
+    /* ===================project details ====================== */
+    #blog__standard .services__other .services4img {
+        width: 100%;
+    }
+    #blog__standard .blogs__main .pera {
+
+        width: 100%;
+    }
+    .projectDetailsimg{
+        width: 100%;
+    }
+    /* ===================project details ====================== */
+        /* ===================Blog starndard ====================== */
+        #blog__standard .blogs__main .blogs__item .blogs__headding {
+            width: auto;
+        }
+        #blog__standard .blogs__main .blogs__item .blogs__videoimg {
+            width: 100%;
+        }
+        #blog__standard .blogs__main .blogs__persond .blogs__person .pera {
+            width: auto;
+        }
+        #blog__standard .blogs__main .blogs__persond .blogs__recent__update .blogs__uname::after {
+            display: none;
+        }
+        /* ===================Blog starndard ====================== */
+         /* ===================costomar gide ====================== */
+         #blog__standard .blogs__videoimg{
+            width: 100%;
+        }
+        #blog__standard .blog__itemimg{
+            width: 100%;
+        }
+    /* ===================costomar gide ====================== */
+    /* ===================costomar gride  ====================== */
+
+    #blog__standard .blog__title .blogtitle__headding {
+        font-size: 40px;
+        line-height: 55px;
+
+    }
+    #blog__standard .blogs__main .custom__tagandshare .custom__share {
+        margin-top: 18px;
+        display: block;
+    }
+    #blog__standard .blogs__main .custom__comment .custom__comt .custom__comt__img {
+        margin-right: 0px;
+    }
+    #blog__standard .blogs__main .custom__comment .custom__comit2 {
+        margin-left: 00px;
+    }
+    #blog__standard .blogs__main .leave__comment form .fullnameInput {
+        width: auto;
+    }
+    #blog__standard .blogs__main .leave__comment form .input2 {
+        width: auto;
+
+    }
+    #blog__standard .blogs__main .leave__comment form .input3 {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__input__box input {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__input__box .search {
+        display: none;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__recent__update ul {
+        width: auto;
+
+    }
+    /* ===================costomar gride  ====================== */
+    /* ===================checkout====================== */
+    .checkout .checkout__main .checkout__input__box input {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .checkout__input3 {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .checkout__input4 {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .chekOut__tik .check__inputTik1 {
+       
+        margin-left: -23px;
+    }
+    /* ===================checkout====================== */
+          /* =========================quote Part =============start  */
+          .quote .quote__main .quote__main__down h2 {
+            font-size: 30px;
+        }
+        .quote .quote__main .quote__main__up h2 {
+            font-size: 30px;
+        }
+        .quote .quote__main .quote__main__up .quote__input__box .quote__input {
+            width: 100%;
+        }
+        .quote .quote__main .quote__main__down .quote__input__box .quote__input {
+            width: 100%;
+    
+        }
+        .quote .quote__main .quote__msg .quote__input3 {
+            width: 100%;
+            height: 150px;
+        }
+        .quote .quote__main .quote__drage .quote__drage__main a {
+            font-size: 14px;
+            padding: 6px 10px;
+        }
+        .quote .quote__main .quote__main__down .quote__input__box .quote__arrowMain i {
+           display: none;
+        }
+        .quote .quote__main .quote__main__up .quote__mainarrowup .angle__down {
+            display: none;
+        }
+        /* =========================quote Part =============end  */
+          /* =========================login Part =============end  */
+    .singin .singin__main {
+        width: 100%;
+        padding: 20px;
+    }
+    .singin .singin__main .singin__box input {
+        width: 50%;
+    }
+    .singin .singin__main .singin__box label h3 {
+        margin-left: 121px;
+    }
+    /* =========================login Part =============end  */
+              /* =========================login Part =============end  */
+              .singUp .singin__main {
+                width: 100%;
+                padding: 20px;
+            }
+            .singUp .singin__main .singin__box input {
+                width: 50%;
+            }
+            .singUp .singin__main .singin__box label h3 {
+                margin-left: 121px;
+            }
+            /* =========================login Part =============end  */
+        /* =========================faq Part =============start  */
+        .faq .faq__questions h3 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        .faq .faq__questions p {
+            width: auto;
+        }
+        .faq .faq__ask p {
+           width: auto;
+        }
+   /* =========================faq Part =============end  */
+       /* =========================error Part =============start  */
+       .error img{
+        width: 100%;
+    }
+    .error h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .error p {
+   width: auto;
+    }
+    .error a {
+        padding: 16px 24px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+/* =========================error Part =============end  */
+    /* =========================contact Part =============start  */
+
+    .contact__us .contact__talk h3 {
+        font-size: 35px;
+    }
+    .contact__us .contact__talk ul {
+        margin-left: 20px !important;
+    }
+
+ 
+    /* =========================contact Part =============end  */
+}
+@media (min-width:992px) and (max-width:1200px) {
+
+    header .header__phone {
+        margin-right: 0px !important;
+    }
+    header .header__middel {
+        text-align: left;
+    }
+    header ul{
+        text-align: left;
+    }
+    header .header__middel {
+        text-align: center;
+        margin-top: 10px;
+    }
+    header .header__right {
+        justify-content: center;
+    }
+    nav .nav__icon li {
+        margin-left: 12px;
+        font-size: 20px;
+    }
+    nav .nav__icon li h3 {
+        width: 12px;
+        height: 12px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    nav .nav__logo{
+        text-align: center;
+    }
+    nav .nav__icon {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    nav .nav__icon {
+        margin-top: 0px;
+    }
+    #banner .banner__item .banner__hadding {
+        margin-top: 50px;
+        font-size: 50px;
+        line-height: 70px;
+    
+    }
+    #banner .banner__item .banner__hadding::after {
+        width: 184px;
+        bottom: 91px;
+    }
+    #banner .banner__item p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #banner .banner__item a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    
+    }
+    #banner .banner__item .banner__img {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #banner .banner__right__btn i::after {
+        display: none;
+    }
+    #banner .banner__left__btn i::after {
+        display: none;
+    }
+    #banner .banner__right__btn {
+        display: none;
+    }
+    #banner .banner__left__btn {
+        display: none;
+    }
+    #banner .banner__item .banner__shape {
+        display: none;
+    }
+    
+    #about .about__title .main__title {
+        font-size: 36px;
+        line-height: 50px;
+    
+    }
+    #about .about__title .title__pera {
+        width: auto;
+    }
+    #about .about__title ul li {
+    
+        width: 90%;
+    }
+    #about .about__title a {
+        margin-top: 30px;
+    }
+    .main__title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    #service .service__item {
+        width: 100%;
+        height: auto;
+    }
+    #service .service__item a {
+       margin-top: 0;
+    }
+    #service .service__item .pera {
+       width: auto;
+       margin-top: 0;
+    }
+    #service .service__item .service__item__hadding {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    #service {
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+    #service .service__title p {
+        width: auto;
+    }
+    #service .service__button a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: -20px;
+    }
+    #choose {
+        margin-top: 70px;
+    }
+    #choose .choose__mainimg{
+        width: 100%;
+    }
+    #choose a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #choose .choose__img__down {
+        margin-bottom: 20px;
+    }
+    #products .products__title .main__title {
+        width: auto;
+        margin: 0 auto;
+    }
+    #products .products__title .main__title::after {
+        display: none;
+    }
+    #products ul {
+        text-align: center;
+    }
+    #products ul li {
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+    .button a {
+        font-size: 14px;
+        margin-top: 0;
+        padding: 10px 16px;
+    }
+    #products .products__list .products__item {
+        width: 100%;
+    
+    }
+    #testimonal .tb__right {
+        display: none;
+    }
+    #testimonal .tb__left {
+        display: none;
+    }
+    #testimonal .testimonal__left .testimonal__text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #plan .plan__title .title__pera {
+        width: auto;
+        margin: 0 auto;
+    }
+    #plan .plan__item {
+        width: auto;
+    }
+    #team .team__meamber__d .tb__right {
+    
+        display: none;
+    }
+    #team .team__meamber__d .tb__left {
+    
+        display: none;
+    }
+    #team .team__title .main__title::after {
+        display: none;
+    }
+    #news .news__title .main__title::after {
+        display: none;
+    }
+    #news .news__title .news__link {
+    
+        bottom: -29px;
+        left: 0;
+    }
+    #news .news__d .team__meamber .news__headding {
+        font-size: 21px;
+    }
+    .team__meamber img {
+        width: 100%;
+    }
+    #sponsor img{
+        margin-top: 20px;
+    }
+    footer{
+        margin-top: 70px;
+    }
+    footer .footer__arrow {
+    
+        display: none;
+    }
+    footer .footer__up .f__l {
+    
+        margin-bottom: 30px;
+    }
+    footer .footer__up .footer__headding {
+        margin-bottom: 32px;
+        margin-top: 30px;
+    }
+    footer .footer__up .input .rocket {
+        top: 40px;
+        right: 68px;
+    }
+    footer .footer__up .input .rocket {
+        display: none;
+    }
+       /* ===================about us ====================== */
+       #info .info__title h2 {
+        width: auto;
+    }
+    #info .infoimg img{
+       width: 100%;
+    }
+    /* ===================about us ====================== */
+    /* ===================Blog starndard ====================== */
+    #blog__standard .blogs__main .blogs__item .blogs__headding {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__item .blogs__videoimg {
+        width: 100%;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__person .pera {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__recent__update .blogs__uname::after {
+        display: none;
+    }
+    /* ===================Blog starndard ====================== */
+      /* ===================team details====================== */
+      .team__details .team__detailsInfo p {
+        width: auto;
+     }
+     .teamDetails__title p {
+         width: auto;
+     }
+     /* ===================team details====================== */
+        /* ===================shop details2  ====================== */
+        .t__shart__navTab .shopDetails__person p {
+            width: auto;
+         }
+         .t__shart__navTab .t__shart__review input {
+             width: auto;
+         }
+        .t__shart .t__shart__right p {
+            width: auto;
+         }
+         .t__shart__navTab ul li {
+     
+             width: 90%;
+         }
+         .t__shart__navTab .shop__details__down ul li {
+     
+             width: 45%;
+         }
+         .t__shart__navTab .t__shart__navTabul li {
+     
+             width: 30%;
+         }
+         /* ===================shop details2  ====================== */
+        /* ===================project details ====================== */
+        #blog__standard .services__other .services4img {
+            width: 100%;
+        }
+        #blog__standard .blogs__main .pera {
+    
+            width: 100%;
+        }
+        .projectDetailsimg{
+            width: 100%;
+        }
+        /* ===================project details ====================== */
+            /* ===================service====================== */
+            #printing{
+                margin-top: 50px;
+            }
+
+            #printing .printingimg .overlay .link {
+                margin-left: 0px;
+            }
+            #printing .printingimg .overlay h2 {
+                width: 100%;
+            }
+
+            /* ===================service====================== */
+     /* ===================costomar gide ====================== */
+     #blog__standard .blogs__videoimg{
+        width: 100%;
+    }
+    #blog__standard .blog__itemimg{
+        width: 100%;
+    }
+/* ===================costomar gide ====================== */
+    /* ===================costomar gride  ====================== */
+
+    #blog__standard .blog__title .blogtitle__headding {
+        font-size: 40px;
+        line-height: 55px;
+
+    }
+    #blog__standard .blogs__main .custom__tagandshare .custom__share {
+        margin-top: 18px;
+        display: block;
+    }
+    #blog__standard .blogs__main .custom__comment .custom__comt .custom__comt__img {
+        margin-right: 0px;
+    }
+    #blog__standard .blogs__main .custom__comment .custom__comit2 {
+        margin-left: 00px;
+    }
+    #blog__standard .blogs__main .leave__comment form .fullnameInput {
+        width: auto;
+    }
+    #blog__standard .blogs__main .leave__comment form .input2 {
+        width: auto;
+
+    }
+    #blog__standard .blogs__main .leave__comment form .input3 {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__input__box input {
+        width: auto;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__input__box .search {
+        display: none;
+    }
+    #blog__standard .blogs__main .blogs__persond .blogs__recent__update ul {
+        width: auto;
+
+    }
+    /* ===================costomar gride  ====================== */
+    /* ===================checkout====================== */
+    .checkout .checkout__main .checkout__input__box input {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .checkout__input3 {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .checkout__input4 {
+        width: auto;
+    }
+    .checkout .checkout__main .checkout__input__box .chekOut__tik .check__inputTik1 {
+       
+        margin-left: -23px;
+    }
+    /* ===================checkout====================== */
+          /* =========================quote Part =============start  */
+          .quote .quote__main .quote__main__down h2 {
+            font-size: 30px;
+        }
+        .quote .quote__main .quote__main__up h2 {
+            font-size: 30px;
+        }
+        .quote .quote__main .quote__main__up .quote__input__box .quote__input {
+            width: 100%;
+        }
+        .quote .quote__main .quote__main__down .quote__input__box .quote__input {
+            width: 100%;
+    
+        }
+        .quote .quote__main .quote__msg .quote__input3 {
+            width: 100%;
+            height: 150px;
+        }
+        .quote .quote__main .quote__drage .quote__drage__main a {
+            font-size: 14px;
+            padding: 6px 10px;
+        }
+        .quote .quote__main .quote__main__down .quote__input__box .quote__arrowMain i {
+           display: none;
+        }
+        .quote .quote__main .quote__main__up .quote__mainarrowup .angle__down {
+            display: none;
+        }
+        /* =========================quote Part =============end  */
+          /* =========================login Part =============end  */
+    .singin .singin__main {
+        width: 100%;
+        padding: 20px;
+    }
+    .singin .singin__main .singin__box input {
+        width: 50%;
+    }
+    .singin .singin__main .singin__box label h3 {
+        margin-left: 121px;
+    }
+    /* =========================login Part =============end  */
+              /* =========================login Part =============end  */
+              .singUp .singin__main {
+                width: 100%;
+                padding: 20px;
+            }
+            .singUp .singin__main .singin__box input {
+                width: 50%;
+            }
+            .singUp .singin__main .singin__box label h3 {
+                margin-left: 121px;
+            }
+            /* =========================login Part =============end  */
+        /* =========================faq Part =============start  */
+        .faq .faq__questions h3 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        .faq .faq__questions p {
+            width: auto;
+        }
+        .faq .faq__ask p {
+           width: auto;
+        }
+   /* =========================faq Part =============end  */
+       /* =========================error Part =============start  */
+       .error img{
+        width: 100%;
+    }
+    .error h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .error p {
+   width: auto;
+    }
+    .error a {
+        padding: 16px 24px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+/* =========================error Part =============end  */
+    /* =========================contact Part =============start  */
+
+    .contact__us .contact__talk h3 {
+        font-size: 35px;
+    }
+    .contact__us .contact__talk ul {
+        margin-left: 20px !important;
+    }
+    .contact__us .send__msg .singin__box input {
+      width: auto;
+    }
+
+ 
+    /* =========================contact Part =============end  */
+}

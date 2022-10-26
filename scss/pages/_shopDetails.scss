@@ -1,0 +1,283 @@
+.t__shart{
+    .t__shart__left{
+        img{
+            margin-bottom: 20px;
+        }
+    }
+    .t__shart__img{
+        img{
+            width: 100%;
+            height: 564px;
+        }
+    }
+    .t__shart__right{
+        margin-top: 40px;
+        h5{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color:$dark3;
+        }
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 45px;
+            color:$dark1;
+            margin-top: 30px;
+        }
+        h6{
+            font-family: 'Manrope', sans-serif;
+            font-size: 25px;
+            font-weight: 900;
+            line-height: 36px;
+            color:#ED4C5C;
+            margin-top: 10px;
+        }
+        ul{
+            margin-top: 14px !important;
+            margin-bottom: 30px !important;
+            li{
+                display: inline-block;
+                color:gold;
+                margin-right: 8px;
+            }
+        }
+        p {
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #071311;
+            width: 490px;
+            margin-top: 25px;
+            margin-bottom: 35px;
+        }
+        .t__shart__count{
+            display: inline-block;
+            background: $dark5;
+            padding: 8px 20px;
+            
+            h1{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                color:$dark;
+                
+                
+            }
+            .t__shart__pm{
+                margin-left: 23px;
+                margin-top: -13px;
+               li{
+                   margin-bottom: -5px;
+                i{
+                    font-size: 10px;
+                }
+               }
+            }
+        }
+        a{
+            display: inline-block;
+            color:#fff;
+            background: #ED4C5C;
+            padding: 8px 16px;
+            margin-left: 20px;
+            i{
+                margin-right: 5px;
+            }
+
+        }
+        .t__shart__downul{
+            margin-top: 35px !important;
+            li{
+                font-family: "Manrope", sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 400;
+                color: #071311;
+                display: block !important;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.t__shart__navTab{
+ 
+    .t__shart__navTabul{
+        li{
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color:$dark1;
+            margin-top: 15px;
+            margin-right: 64px;
+            padding: 16px 24px ;
+            background:transparent;
+            transition: .4s;
+            &:hover{
+                background: #ED4C5C;
+                color:#fff
+            }
+        }
+        .active{
+            background: #ED4C5C;
+                color:#fff
+        }
+    }
+    margin-top: 130px;
+    p {
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #071311;
+        margin-top: 40px;
+    }
+    ul{
+        li{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color:#353535;
+            margin-top: 15px;
+            position: relative;
+            top:0;
+            left:30px;
+            
+            i{
+                margin-right: 8px;
+                position: absolute;
+                top:5px;
+                left: -30px;
+            }
+        }
+    }
+    h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        color:$dark1;
+        margin-top: 50px;
+        margin-bottom: 25px;
+
+    }
+    .shop__details__down{
+        overflow: hidden;
+        ul{
+            position: relative;
+            li{
+                font-family: "Manrope", sans-serif;
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: 400;
+                color: #071311;
+                margin-top: 30px;
+                position: relative;
+                top:0;
+                left: 150px;
+                span{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color:$dark1;
+                    position: absolute;
+                    top:0;
+                    left: -150px;
+                }
+            }
+        }
+    }
+.shopDetails__person{
+    img{
+        margin-top: 50px;
+    }
+    h2 {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: #353535;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        span{
+            font-family: "Josefin Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: $dark3;
+        }
+    }
+    .shopDetailsReview{
+        li{
+           
+            display: inline-block;
+            position: relative;
+            top:0;
+            left: 0;
+            color:gold;
+            i{
+                position: relative;
+                top:0;
+                left: 0;
+            }
+        }
+    
+}
+ p {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #071311;
+    width: 839px;
+    margin-top: 10px;
+}
+
+}
+.t__shart__review{
+    p{
+        margin-top: 10px !important;
+        margin-bottom: 40px !important;
+    }
+    input{
+        width: 365px;
+        border-color:#E7E7E7;
+        border-radius: 0;
+    }
+    .comment{
+        padding: 100px 0;
+    }
+    .yourReting{
+        .t__headding{
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px ;
+            font-weight: 600;
+            color:#071311;
+            margin-right: 25px;
+        }
+        li{
+            display: inline-block;
+            position: relative;
+            top:0;
+            left: 0;
+            color:gold;
+            i{
+                position: relative;
+                top:0;
+                left: 0;
+            }
+        }
+    }
+    .t__commnet__btn{
+        display: inline-block;
+        padding: 16px 24px;
+        background: $primary;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color:#fff;;
+        margin-top: 61px;
+    }
+}
+}

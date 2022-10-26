@@ -1,0 +1,113 @@
+#service{
+    margin-bottom: 50px;
+    margin-top: 130px;
+    .service__title{
+        text-align: center;
+        p{
+            width: 540px;
+            margin: 0 auto;
+        }
+    }
+    .service__item{
+        margin-top: 70px;
+        border:1px solid #EBEBEB;
+        width: 270px;
+        height: 270px;
+        padding: 30px;
+        position: relative;
+        img{
+            transition: .4s;
+            margin-top: -15px;
+        }
+        .service__shart{
+            filter: invert(100%);
+            -webkit-filter: invert(100%);
+            transition: .4s;
+        }
+      
+        .service__item__hadding{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 30px;
+            color:$dark;
+            margin-top: 20px;
+            transition: .4s;
+        }
+        .pera{
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25px;
+            color:#5B5B5B;
+            margin-top: 15px;
+            width: 220px;
+            transition: .4s;
+        }
+        a{
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color:#5B5B5B;
+            margin-top: 25px;
+            transition: .4s;
+            i{
+                margin-left: 10px;
+            }
+
+        }
+        .overlay{
+            width: 0%;
+            height: 100%;
+            background:url(../images/t-shart.png) no-repeat center;
+            position: absolute;
+            top:0;
+            left: 0;
+            z-index: -1;
+            border:1px solid #fff;
+            transition: .4s;
+        }
+      
+        &:hover .overlay{
+            width: 100%;
+            border:1px solid  #EBEBEB;
+        }
+        &:hover  .service__item__hadding{
+            color:#EBEBEB;
+        }
+        &:hover  .pera{
+            color:#EBEBEB;
+        }
+        &:hover  a{
+            color:#EBEBEB;
+        }
+        &:hover .service__shart{
+            filter: invert(0%);
+            -webkit-filter: invert(0%);
+        }
+        &:hover  img {
+            filter: invert(100%);
+            -webkit-filter: invert(100%);
+          }
+    }
+    .service__button{
+        text-align: center;
+        margin-top: 70px;
+        a{
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color:$primary;
+            padding: 16px 24px;
+            border: 1px solid $primary;
+            transition: .4s;
+            &:hover{
+                color:$dark;
+                background: $primary;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+footer{
+    background: #071311;
+    position: relative;
+
+    margin-top: 130px;
+    .footer__arrow{
+        position: absolute;
+        bottom:120px;
+        left: 0;
+    }
+    .footer__arrow1{
+        position: absolute;
+        top:62px;
+        right: 0;
+    }
+ .footer__up{
+    padding: 100px 0;
+    .f__address{
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color:#C9C9C9;
+        margin-top: 20px;
+    }
+    .f__l{
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color:#C9C9C9;
+        margin-top: 20px;
+        i{
+            margin-right: 10px;
+        }
+    }
+    .footer__headding{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color:#C9C9C9;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+    }
+    ul{
+        li{
+            font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color:#C9C9C9;
+        margin-top: 20px;
+        display: block !important;
+        margin-left: 0 !important;
+        }
+    }
+    input{
+        background:transparent;
+        border:1px solid $dark4;
+        margin-top: 20px;
+        padding: 14px 20px;
+    }
+ .input{
+     position: relative;
+      .rocket {
+        position: absolute;
+        top: 40px;
+        right: 52px;
+        color:$primary
+    }
+ }
+
+ .footer__iconul{
+    margin-top: 25px;
+    li{
+        display: inline-block !important;
+        margin-left: 20px !important;
+    }
+ }
+ }
+ .footer__down{
+     padding-bottom: 20px;
+     position: relative;
+     &::after{
+         top:0;
+         left: 0;
+         position: absolute;
+         width: 100%;
+         height: 1px ;
+         background: $dark4;
+         content: '';
+
+     }
+     .footer__downul{
+         li{
+             display: inline-block;
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color:#C9C9C9;
+            margin-top: 20px;
+         }
+         .footer__down__right{
+             display: flex;
+             justify-content: flex-end;
+             margin-top: -22px;
+         }
+     }
+ }
+}

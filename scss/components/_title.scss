@@ -1,0 +1,47 @@
+@import '../variabels/variables';
+
+.subtitle{
+    color:$primary;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.main__title{
+    color:$dark;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    position: relative;
+  
+} 
+.title__pera{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#5B5B5B;
+    margin-top: 15px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 70px;
+    a{
+        display: inline-block;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color:$primary;
+        padding: 16px 24px;
+        border: 1px solid $primary;
+        transition: .4s;
+        &:hover{
+            color:$dark;
+            background: $primary;
+
+        }
+    }
+}

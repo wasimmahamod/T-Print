@@ -1,0 +1,140 @@
+#banner{
+    
+    .banner__item{
+        position: relative;
+        .banner__shape{
+            position: absolute;
+            bottom:0;
+            left: 0;
+            z-index: -1;
+        }
+        .banner__hadding{
+            margin-top: 243px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 90px;
+            color:$dark;
+            position: relative;
+            &::after{
+                width: 234px;
+                height: 9px;
+                background: $primary;
+                content: '';
+                position: absolute;
+                bottom: 28px;
+                left: 5px;
+                z-index: -1;
+                opacity: .8;
+               animation: lafalafi 4s infinite alternate linear;
+
+            }
+           @keyframes lafalafi {
+               from{
+                   transform: translateX(0);
+               }to{
+                   transform: translateX(100%);
+               }
+           }
+        }
+        p{
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            color:$dark;
+            width: 570px;
+            margin-top: 25px;
+        }
+        a{
+            display: inline-block;
+            background: $primary;
+            font-size: 18px;
+            font-family: 'Manrope', sans-serif;
+            font-weight: 400;
+            padding: 16px 24px;
+            color:#ffffff;
+            margin-top: 60px;
+            transition: .4s;
+            border:1px solid transparent;
+            &:hover{
+                background:transparent;
+                border-color:$primary;
+                color:$primary;
+            }
+        }
+        .banner__img{
+            margin-top: 138px;
+        }
+    }
+    .carousel-control-prev{
+        opacity: 1;
+    }
+    .banner__left__btn{
+        width: 50px;
+        height:50px;
+        background: transparent;
+        border:1px solid #7B7B7B;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#7B7B7B;
+        transition: .4s;
+        i{
+            position: relative;
+            &::after{
+                position: absolute;
+            top:47%;
+            transform: translateY(-50%);
+            left: 0;
+            background: #7B7B7B;
+            width: 50px;
+            height: 1px;
+            content: '';
+            transition: .4s;
+            }
+        }
+        &:hover{
+            border-color: $primary;
+            color:$primary
+ 
+         }
+         &:hover i::after{
+            background: $primary;
+        }
+    }
+    .banner__right__btn{
+        width: 50px;
+        height:50px;
+        background: transparent;
+        border:1px solid #7B7B7B;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#7B7B7B;
+        transition: .4s;
+        i{
+            position: relative;
+            &::after{
+                position: absolute;
+            top:47%;
+            transform: translateY(-50%);
+            right: 0;
+            background: #7B7B7B;
+            width: 50px;
+            height: 2px;
+            content: '';
+            transition: .4s;
+            }
+        }
+        &:hover{
+           border-color: $primary;
+           color:$primary
+        }
+        &:hover i::after{
+            background: $primary;
+        }
+    }
+}

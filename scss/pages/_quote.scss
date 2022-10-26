@@ -1,0 +1,151 @@
+.quote{
+    .quote__main{
+        border:1px solid #EBEBEB;
+        padding: 50px;
+      .quote__main__up{
+          .quote__mainarrowup{
+              position: relative;
+             .angle__down{
+                 position: absolute;
+                 top:68px;
+                right: 140px;
+             }
+          }
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            color:$dark;
+            margin-bottom: 20px;
+        }
+        .quote__input__box{
+            .quote__input{
+                width: 420px;
+                height: 52px;
+                border-color: #E7E7E7;
+            }
+            .quote__lavelText{
+                font-family: 'Manrope', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color:$dark;
+                margin-top: 20px;
+            }
+        }
+      }
+      .quote__main__down{
+          margin-top: 50px;
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            color:$dark;
+            margin-bottom: 20px;
+        }
+        .quote__input__box{
+            .quote__input1{
+                width: 200px;
+                height: 52px;
+                border-color: #E7E7E7;
+                position: relative;
+                &::placeholder{
+                    position: absolute;
+                    top:13px;
+                    right: 20px;
+                }
+            }
+            .quote__input{
+                width: 420px;
+                height: 52px;
+                border-color: #E7E7E7;
+            }
+            .quote__lavelText{
+                font-family: 'Manrope', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color:$dark;
+                margin-top: 20px;
+            }
+            .quote__arrowMain{
+                position: relative;
+                i{
+
+                    position: absolute;
+                    top:65px;
+                    right: 80px;
+                }
+            }
+        }
+      }
+      .quote__drage{
+          margin-top: 50px;
+          h4{
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color:$dark3;
+          }
+          .quote__drage__main{
+              padding: 25px 0;
+              text-align: center;
+              border:1px dashed $primary;
+              h3{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                color:$dark3
+              }
+              a{
+                  display: inline-block;
+                  font-family: 'Josefin Sans', sans-serif;
+                  font-size: 18px;
+                  font-weight: 500;
+                  color:#fff;
+                  background: $primary;
+                  padding: 10px 16px;
+                  margin-top: 25px;
+              }
+          }
+      }
+      .quote__msg{
+          margin-top: 50px;
+          h2{
+            
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 30px;
+                font-weight: 600;
+                color:$dark;
+                margin-bottom: 20px;
+            
+          }
+          .quote__input3{
+              width: 870px;
+              height: 230px;
+              color:#E7E7E7
+          }
+          .quote__lavelText3{
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color:$dark;
+            margin-top: 20px;
+        }
+        a{
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color:$primary;
+            background: transparent;
+            border:1px solid $primary;
+            padding: 16px 24px;
+            margin-top: 25px;
+            transition: .4s;
+            &:hover{
+                background: $primary;
+                color:$dark;
+            }
+        }
+      }
+    }
+}

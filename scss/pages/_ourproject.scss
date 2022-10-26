@@ -1,0 +1,41 @@
+#team{
+    .team__meamber{
+        margin-top: 50px;
+        .project__subt{
+                font-family: "Josefin Sans", sans-serif;
+                font-weight: 500;
+                font-size: 15px;
+                color: #5B5B5B !important;
+                display: inline-block;
+                margin-top: 20px;
+            i{
+                margin-left: 10px;
+            }
+          
+        }
+    }
+}
+.our__project__bottom{
+    .blog__d{
+        margin:134px 0!important;
+        text-align: center;
+       
+        li{
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color:$dark;
+            margin-left: 50px;
+            span{
+                color:$primary;
+                font-size: 22px;
+                font-weight: 600;
+            }
+            i{
+                margin: 0 10px;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,181 @@
+.card__page{
+    .card__up__main{
+        .stockstatus{
+            .stok__up{
+                margin-top: 55px;
+                color:#ED4C5C
+            }
+            .stok__down{
+                margin-top: 55px;
+                color:#ED4C5C
+            }
+        }
+        .addcard{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color:#000000;
+            margin-top: 135px;
+        }
+        .addcard1{
+            margin-top: 100px;
+        }
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color:#000000;
+            background: #F7F7F7;
+            padding: 20px 0;;
+            
+        }
+        .card__up__item{
+            margin-top: 40px;
+            h4{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                color:#000000;
+                margin-top: 30px;
+            }
+        }
+        .card__shart__count{
+            margin-top: 50px;
+          
+                display: inline-block;
+                background: #EBEBEB;
+                padding: 8px 20px;
+               h1 {
+                    font-family: "Josefin Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #071311;
+                    margin-top: 10px;
+                    
+                }
+                .t__shart__pm{
+                   
+                        margin-left: 23px;
+                        margin-top: -5px;
+                    
+                  
+                    li{
+                        margin-bottom: -5px;
+                        i {
+                            font-size: 10px;
+                        }
+                    }
+                }
+              
+        }
+        .card__shart__count1{
+            margin-top: 70px;
+        }
+        .card__price{
+            margin-top: 75px;
+            h3{
+                font-family: 'Manrope', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                color: $dark1;
+                margin-top: 10px;
+            }
+        }
+        .card__price1{
+            margin-top: 100px;
+            h3{
+                font-family: 'Manrope', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                color: $dark1;
+                margin-top: 10px;
+            }
+        }
+    }
+    .card__total{
+        .card__totolborder{
+            width: 70%;
+            height: 1px;
+            background: #E8E8E8;
+            margin-top: 20px;
+        }
+        margin-top: 40px;
+        h2{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 30px;
+                font-weight: 500;
+                color:#000000;
+                margin-bottom: 30px;
+        }
+        h4{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                color:#000000;
+                margin-top: 30px;
+                span{
+                    color:$primary;
+                }
+        }
+        h5{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 400;
+                color:$dark3;
+                margin-top: 30px;
+        }
+        h6{
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color:$dark3;
+            margin-top: 30px;
+            span{
+                color:$primary;
+            }
+        }
+        a{
+            display: inline-block;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                color:$dark3;
+                margin-top: 30px;
+                padding: 10px 24px;
+                background: #ED4C5C;
+                color:#fff;
+        }
+    }
+    .card__nav{
+        ul{
+            li{
+                display: inline-block;
+                padding: 18px 20px ;
+                background: transparent;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                margin-right: 50px;
+                color:$dark3;
+                transition: .4s;
+                &:hover{
+                    background: #ED4C5C;
+                    color:#fff;
+                }
+            }
+            .active{
+                background: #ED4C5C;
+                color:#fff;
+            }
+        }
+    }
+    .card__delete{
+       li{
+           margin-top: 50px;
+           color:$dark3
+       }
+       .card__deleteDown{
+        margin-top: 100px;
+       }
+    }
+}

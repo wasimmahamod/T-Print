@@ -1,0 +1,75 @@
+.singUp{
+    .singin__main{
+        width: 500px;
+        border:1px solid #EBEBEB;
+        padding: 40px;
+        margin: 0 auto;
+      h2{
+          text-align: center;
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 30px;
+          font-weight: 600;
+          color:$dark;
+
+      }
+     .singin__box{
+        .singUptop{
+            width:200px ;
+            height: 52px;
+        }
+         margin-top: 50px;
+        label{
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color:$dark3;
+            margin-top: 20px;
+            h3{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                color:$dark3;
+                margin-left: 230px;
+                margin-top: -24px;
+                text-decoration: underline;
+                color:#ED4C5C
+            }
+            h6{
+                color:$dark1
+            }
+          }
+          input{
+              width: 420px;
+              height: 52px;
+              border-radius: 0;
+              margin-top: 23px;
+          }
+          .check1{
+              width: 12px;
+              height: 12px;
+          }
+          a{
+            display: inline-block;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                color:$dark3;
+                margin-top: 30px;
+                padding: 10px 24px;
+                background: #ED4C5C;
+                color:#fff;
+        }
+        h3{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color:$dark;
+            margin-top: 30px;
+            span{
+                color:#ED4C5C
+            }
+        }
+     }
+
+    }
+}

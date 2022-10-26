@@ -1,0 +1,170 @@
+.shopSlider__item__top{
+    .shopSlider__top{
+        .input__search{
+            position: relative;
+            width: 270px;
+            i{
+                position: absolute;
+                top:10px;
+                right: 10px;
+                font-size: 16px;
+                color:$dark3;
+            }
+        }
+    }
+    .shop__category__item{
+        margin-top: 60px;
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            color:$dark;
+        }
+
+        ul{
+            margin-left: 0 !important;
+            text-align: left !important;
+            margin-top: 30px !important;
+            li{
+                display: block !important;
+                margin-top: 12px !important;
+                margin-left: 0 !important;
+            }
+        }
+        .shopSlider__img1{
+            margin-top: 30px;
+        }
+        .shop__topSale{
+            margin-top: 35px;
+            h4{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 20px;
+                font-weight: 500;
+                color:$dark1;
+            }
+            h6{
+                font-family: 'Manrope', sans-serif;
+                font-size: 16px;
+                font-weight: 900;
+                color:$dark3;
+                margin-top: 10px;
+            }
+        }
+        .pouplerTagList{
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                border: none;
+                li {
+                    font-family: "Manrope", sans-serif !important;
+                    font-size: 14px !important;
+                    font-weight: 500 !important;
+                    color: #071311 !important;
+                    padding: 8px 14px;
+                    transition: 0.4s;
+                    margin-left: 8px !important;
+                    margin-top: 10px !important;
+                    
+                    &:hover{
+                        background: #ED4C5C;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+.shoppage__top{
+    h5{
+        color:$dark;
+    }
+    .shoppage__top__right{
+        text-align: right;
+    }
+}
+.shopSlider__item{
+    margin-top: 50px;
+    background: #F7F7F7;
+    height: 445px;
+    text-align: center;
+    position: relative;
+    img{
+        margin-bottom: 50px ;
+    }
+    .products__item__top{
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 2px 10px;
+        background: #17BD8D;
+        display: inline-block;
+        position: absolute;
+        top:0;
+        left: 0;
+        color:#F7F7F7;
+    }
+    .products__item__top--sale{
+        background: $dark;
+    }
+    .products__item__top--bestsale{
+        background: #219FFF;
+    }
+    .products__item--off{
+        background: $primary;
+    }
+    .product__left__ul{
+        position: absolute;
+        top:-75px;
+        right: 0;
+        .product__left__li{
+            display: block !important;
+            width: 36px;
+            height: 36px;
+            background: transparent;
+            border-radius: 50px;
+            text-align: center;
+            line-height: 36px;
+            color:$dark !important;
+            font-size: 18px !important;
+            margin-top: 10px !important;
+            transition: .4s;
+            &:hover{
+                background: $primary;
+                color:#F7F7F7;
+            }
+            
+        }
+    }
+  h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:$dark;
+  }
+  .product__left__ul{
+      margin-top: 62px !important;
+      opacity: 0;
+      transition: .4s;
+      li{
+        display: inline-block;
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        color:$dark ;
+        margin-top: 0;
+        margin-left: 0;
+      }
+      .product__two{
+          color:$primary;
+      }
+      .products__item--li{
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 12px;
+      }
+  }
+  &:hover .product__left__ul{
+      opacity: 1;
+  }
+}

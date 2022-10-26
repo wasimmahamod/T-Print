@@ -1,0 +1,85 @@
+#testimonal{
+    margin-top: 130px;
+    margin-bottom: 50px;
+  .testimonal__left{
+      position: relative;
+      padding: 50px;
+    .testimonal__text{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 29px;
+        line-height: 48px;
+        color:$dark;
+        
+        }
+    .testimonal__shape1{
+        position: absolute;
+        top:0;
+        left: 0px;
+    }
+    .testimonal__shape2{
+        position: absolute;
+        bottom:150px;
+        right: 20px;
+    }
+    .main1{
+            margin-top: 30px;
+            img{
+                display: inline-block;
+                margin-top: -30px;
+            }
+            
+            .testimonal__sub_text{
+                margin-left: 20px;
+                display: inline-block;
+                .testimonal__name{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    color:$dark;
+                    margin-top: 20px;
+                }
+            }
+        }
+  }
+  .tb__left{
+    border: 1px solid #EBEBEB;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      text-align: center;
+      line-height: 30px;
+      position: absolute;
+      bottom: 60px;
+      left: 600px;
+      color:#EBEBEB;
+      transition: .4s;
+      &:hover{
+        border-color: $primary;
+        color:$primary;
+    }
+  }
+  .tb__right{
+    border: 1px solid #EBEBEB;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    color:#EBEBEB;
+    transition: .4s;
+    &:hover{
+        border-color: $primary;
+        color:$primary;
+    }
+}
+  .carousel-control-prev{
+      opacity: 1;
+  }
+  .carousel-control-next{
+      opacity: 1;
+  }
+}

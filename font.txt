@@ -1,0 +1,2 @@
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Manrope', sans-serif;

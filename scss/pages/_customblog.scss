@@ -1,0 +1,211 @@
+#blog__standard{
+    .blogs__main{
+        .blogs__item{
+            .blogs__item__headdingdiv{
+                position: relative;
+                .customshape{
+                    position: absolute;
+                    top:20px;
+                    left: 0;
+                }
+                padding: 45px 25px;
+                .blogs__headding__h3{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 28px;
+                    font-weight: 300;
+                    color:$dark3;
+                 
+                }
+                .blogs__headding__h4{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 22px;
+                    font-weight: 600;
+                    color:$dark3;
+                    margin-top: 20px;
+                }
+            }
+          
+            
+        }
+        .custom__ul{
+            margin-bottom: 30px !important;
+            li {
+                font-family: "Josefin Sans", sans-serif;
+                font-size: 18px !important;
+                font-weight: 500 !important;
+                color: #353535;
+                margin-top: 15px;
+                position: relative;
+                display: block !important;
+                top: 0;
+                left: 30px;
+            }
+        }
+        .custom__linkimg3ul{
+            margin-top: 30px !important;
+          li {
+                font-family: "Manrope", sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                color: #071311;
+                line-height: 30px;
+                display: inline-block;
+                margin-right: 50px;
+            }
+        }
+        .custom__headding{
+            font-family: 'Josefin Sans', sans-serif;
+                font-size: 30px;
+                font-weight: 600;
+                color:$dark;
+                text-transform: capitalize;
+        }
+        .ch1{
+            margin-top: 45px;
+            margin-bottom: 10px;
+        }
+        .pera{
+           
+                font-family: "Manrope", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                color: #5B5B5B;
+                margin-top: 20px;
+            
+        }
+       .custom__tagandshare{
+           border-top: 1px solid #5B5B5B;
+           margin-top: 45px;
+           padding: 25px 0;
+           li{
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #071311;
+            span{
+                color:$primary;
+            }
+           }
+        .custom__share{
+            margin-top: -18px;
+            display: flex;
+            justify-content: flex-end;
+            h4 {
+                 font-family: "Josefin Sans", sans-serif;
+                 font-size: 16px !important;
+                 font-weight: 500;
+                 color: $dark;
+             }
+         }
+       }
+       .custom__comment{
+        .custom__commneth3{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 40px;
+            color:$dark;
+            margin-top: 70px;
+           }
+           .custom__comt{
+               margin-top: 40px;
+               display: flex;
+               .custom__comt__img{
+                   margin-right: 30px;
+               }
+               .custom__comt__detels{
+                   h3{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 20px;
+                    font-weight: 500;
+                    color:$dark;
+                    span{
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color:$dark3;
+                    }
+                   }
+                   p {
+                    font-family: "Manrope", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: #5B5B5B;
+                }
+                h6{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 16px;
+                    font-style: italic;
+                    span{
+                        color:$primary
+                    }
+                }
+               }
+           }
+           .custom__comit2{
+               margin-left: 80px;
+           }
+       }
+       .leave__comment{
+           margin-top: 70px;
+           h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            color:$dark;
+            margin-bottom: 40px;
+           }
+              .website{
+            margin-top: 100px;
+        }
+           form{
+            .form-label{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 14px;
+                color:$dark4
+               }
+            .form-control {
+              
+                border: 1px solid #EBEBEB;
+                
+            }
+            .fullnameInput{
+                width: 750px;
+                height: 52px;
+                border-radius: 0;
+            }
+            .input2{
+                width: 365px;
+                height: 52px;
+                border-radius: 0;
+            }
+         
+            .input3{
+                width: 750px;
+                height: 180px;
+                border-radius: 0;
+            }
+         
+        
+               .leave__commnet__btn{
+                   margin-top: 150px;
+                   padding:16px 24px;
+                   background: #ED4C5C;
+                   display: inline-block;
+                   color:#ffff;
+                   font-family: 'Josefin Sans', sans-serif
+               }
+           }
+           .rightform{
+               margin-top: 85px;
+               .form-label{
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 14px;
+                color:$dark4
+               }
+           }
+       }
+    }
+}

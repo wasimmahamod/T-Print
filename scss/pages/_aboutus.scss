@@ -1,0 +1,31 @@
+#info{
+    margin-top: 130px;
+    .info__title{
+    
+        text-align: center;
+        h2{
+            width: 640px;
+            margin: 0 auto;
+        }
+    }
+    .infoimg{
+        margin-top: 70px;
+        position: relative;
+        .infoimg__icon{
+           position: absolute;
+           top:50%;
+           left: 50%;
+           width: 36px;
+           height: 36px;
+           border-radius: 50%;
+           border:1px solid #fff;
+           text-align: center;
+           line-height: 36px;
+           i{
+               color:#fff;
+               font-size: 15px;
+           }
+
+        }
+    }
+}

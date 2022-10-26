@@ -1,0 +1,114 @@
+#plan{
+    .plan__title{
+        text-align: center;
+        .title__pera{
+            width: 540px;
+            margin: 0 auto;
+        }
+    }
+    .plan__item{
+        margin-top: 70px;
+        border:1px solid #EBEBEB;
+        width: 370px;
+        height: 490px;
+        padding: 40px 45px;
+        position: relative;
+        transition: .4s;
+        img{
+            transition: .4s;
+            margin-top: -15px;
+        }
+        .service__shart{
+            filter: invert(100%);
+            -webkit-filter: invert(100%);
+            transition: .4s;
+        }
+        .plan__hadding{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 50px;
+            font-weight: 200;
+            line-height: 62px;
+        }
+      
+        .plan__item__hadding{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 30px;
+            color:$dark;
+            margin-top: 20px;
+            transition: .4s;
+        }
+        ul{
+            margin-top: 25px !important;
+           li {
+                font-family: "Josefin Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                color: #353535;
+                margin-top: 15px;
+                transition: .4s;
+                i{
+                    margin-right: 8px;
+                }
+            }
+        }
+        a{
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 8px 16px;
+            color:#5B5B5B;
+            margin-top: 25px;
+            transition: .4s;
+            border:1px solid #7B7B7B;
+            border-radius: 5px;
+         &:hover{
+             background: $primary;
+             color:#EBEBEB;
+         }
+
+        }
+        .overlay{
+          width: 0%;
+          height: 100%;
+          background: url(../images/plan.png) no-repeat center;
+          position: absolute;
+          top:0;
+          left: 0;
+          z-index: -1;
+          border:1px solid transparent;
+          transition: .4s;
+          opacity: 0;
+        }
+      
+        &:hover .overlay{
+            width: 100%;
+            border:1px solid  #EBEBEB;
+        }
+        &:hover  .plan__item__hadding{
+            color:#EBEBEB;
+        }
+        &:hover  .plan__hadding{
+            color:#EBEBEB;
+        }
+        &:hover  ul li{
+            color:#EBEBEB;
+        }
+        &:hover  a{
+            color:#EBEBEB;
+        }
+        &:hover .service__shart{
+            filter: invert(0%);
+            -webkit-filter: invert(0%);
+        }
+        &:hover  img {
+            filter: invert(100%);
+            -webkit-filter: invert(100%);
+          }
+          &:hover .overlay{
+            opacity: 1;
+          }
+    }
+}
